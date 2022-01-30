@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Word Spacing and Letter Spacing with CSS">
+    <title>CSS Topic - Spacing</title>
+    <link href="./css/styles.css" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
+    <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <main>
+        <article>
+            <h1>CSS Topic - Spacing</h1>
+            <p>
+                The <strong><code>letter-spacing</code></strong> and <strong><code>word-spacing</code></strong> properties allow for the addition and the 
+                removal of whitespace between letters and words respectively. They are able to be used together to mess with both the whitespace between letters 
+                and the whitespace between words. If you do not use either of these then they are defaulted to <strong><code>letter-spacing: normal;</code></strong>.
+                They are both inheritable and can use pixels to change the amount of whitespace.
+            </p>
+            <div>
+                <p class="codepen" data-height="406" data-default-tab="html,result" data-slug-hash="BamorWG" data-user="kaladin-mandragon" style="height: 406px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/kaladin-mandragon/pen/BamorWG">
+                    No-Spacing</a> by Kaladin-Mandragon (<a href="https://codepen.io/kaladin-mandragon">@kaladin-mandragon</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                  </p>
+                  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+
+            <h2>Spacing Between Letters</h2>
+            <p>
+                To change the amount of whitespace between individual letters you use <strong><code>letter-spacing: 10px</code></strong> to add 10 pixels of 
+                whitespace. One thing to note is that you can also use negative numbers to decrease the amount of whitespace between letters. 
+                One thing to keep an eye on is how easy it is to read your text after adding or removing a certain amount of whitespace. Make 
+                sure that your text is still readable unless it was your goal to make it illegible.
+            </p>
+            <div>
+                <p class="codepen" data-height="427" data-default-tab="html,result" data-slug-hash="mdqexwK" data-user="kaladin-mandragon" style="height: 427px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/kaladin-mandragon/pen/mdqexwK">
+                    Letter Spacing</a> by Kaladin-Mandragon (<a href="https://codepen.io/kaladin-mandragon">@kaladin-mandragon</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                  </p>
+                  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+    
+            <h2>Spacing Between Words</h2>
+            <p>
+                To change the amount of whitespace between different words you use <strong><code>word-spacing: 15px</code></strong> to add 15 pixels of 
+                whitespace. You can also use negative numbers to remove whitespace between words however just like with the spacing between letters there is no 
+                limit to the amount of whitespace that can be added or removed. If you add too much or remove too much it becomes difficult and sometimes 
+                impossible to read. 
+            </p>
+            <div>
+                <p class="codepen" data-height="453" data-default-tab="html,result" data-slug-hash="GROpxEB" data-user="kaladin-mandragon" style="height: 453px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                    <span>See the Pen <a href="https://codepen.io/kaladin-mandragon/pen/GROpxEB">
+                    Word Spacing</a> by Kaladin-Mandragon (<a href="https://codepen.io/kaladin-mandragon">@kaladin-mandragon</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+                  </p>
+                  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
